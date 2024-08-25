@@ -80,6 +80,19 @@ body{
     width: 60vh;
     border-radius: 5px;
     padding: 30px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.conteudo-meio ::-webkit-scrollbar{
+    width: 10px;
+    background-color: darkolivegreen;
+    border-radius: 10px;
+}
+
+.conteudo-meio ::-webkit-scrollbar-thumb{
+    background-color: chartreuse;
+    border-radius: 10px;
 }
 
 h2{
