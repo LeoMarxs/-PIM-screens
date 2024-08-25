@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #cfd4be;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho-menu{
+    gap: 20px;
+    color: #747373;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho-botao{
+    cursor: pointer;
+}
+
+
+.icone-voltar{
+    cursor: pointer;
+    padding: 5px;
+    background-color: #d5d5d5;
+    width: 40px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid rgb(130, 130, 130);
+}
+
+.conteudo-principal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imagem-cliente{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.imagem-icone{
+    height: 60px;
+    width: 60px;
+    background-color: aliceblue;
+    border-radius: 100%;
+}
+
+.texto-cliente{
+    font-size: 30px;
+    font-weight: 750;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #747373;
+}
+
+.conteudo-meio{
+    background-color: #ebf0d8;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    width: 60vh;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+h2{
+    color: #747373;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 0px 20px;
+}
+
+.conteudo-input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    border: none;
+    height: 30px;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+}
+
+img{
+    height: 130px;
+}
+
+
+.rodape{
+    height: 88vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+
+button{
+    color: #747373;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #c3c2c2;
+}
